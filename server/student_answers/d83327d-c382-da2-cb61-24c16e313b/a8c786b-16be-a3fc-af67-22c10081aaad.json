@@ -1,0 +1,23 @@
+{
+  "survey_id": "d83327d-c382-da2-cb61-24c16e313b",
+  "date": "2022-02-02T20:38:00.758Z",
+  "document_name": "7Untitled Docment",
+  "document_description": "Add Description",
+  "answers": [
+    {
+      "questionText": "Question text...",
+      "questionIndex": 0,
+      "questionType": "radio",
+      "answer": "",
+      "hidden": false
+    },
+    {
+      "questionText": "Question text...",
+      "questionIndex": 1,
+      "questionType": "textarea",
+      "answer": "",
+      "hidden": false
+    }
+  ],
+  "currentSurveyRating": "0.00"
+}

@@ -1,0 +1,61 @@
+{
+  "documentName": "Second Survey",
+  "documentDescription": "Add Description",
+  "questions": [
+    {
+      "id": "c553c5c-808b-b1a2-ba62-15c766d3c6fc",
+      "questionText": "Question text...",
+      "questionType": "radio",
+      "options": [
+        { "optionText": "כלל לא" },
+        { "optionText": "במידה מעטה" },
+        { "optionText": "במידה בינונית" },
+        { "optionText": "במידה רבה" },
+        { "optionText": "במידה רבה מאוד" }
+      ],
+      "open": false,
+      "required": false,
+      "hidden": false
+    },
+    {
+      "id": "81a8a0-83ce-7c63-ce2-850c8b8d885",
+      "questionType": "radio",
+      "questionText": "Question text...",
+      "open": true,
+      "required": false,
+      "hidden": false,
+      "options": [
+        { "optionText": "כלל לא" },
+        { "optionText": "במידה מעטה" },
+        { "optionText": "במידה בינונית" },
+        { "optionText": "במידה רבה" },
+        { "optionText": "במידה רבה מאוד" }
+      ]
+    },
+    {
+      "id": "5df7f8-a758-53c0-276a-20eebb16ba76",
+      "questionType": "radio",
+      "questionText": "Question text...",
+      "open": true,
+      "required": false,
+      "hidden": false,
+      "options": [
+        { "optionText": "כלל לא" },
+        { "optionText": "במידה מעטה" },
+        { "optionText": "במידה בינונית" },
+        { "optionText": "במידה רבה" },
+        { "optionText": "במידה רבה מאוד" }
+      ]
+    },
+    {
+      "id": "dfa4c6-e6-fb3-174-1d274aa5d81",
+      "questionText": "Question text...",
+      "questionType": "textarea",
+      "options": [{}],
+      "open": false,
+      "required": false,
+      "hidden": false
+    }
+  ],
+  "documentId": "fcf1b4-edb-ecb7-ab78-6a0bd46c66b"
+}

@@ -1,0 +1,31 @@
+{
+  "documentName": "Untitled Docment4",
+  "documentDescription": "Add Description",
+  "questions": [
+    {
+      "id": "4e1eb6a-417-4817-4a3d-fb7e45beced",
+      "questionText": "Question text...",
+      "questionType": "radio",
+      "options": [
+        { "optionText": "כלל לא" },
+        { "optionText": "במידה מעטה" },
+        { "optionText": "במידה בינונית" },
+        { "optionText": "במידה רבה" },
+        { "optionText": "במידה רבה מאוד" }
+      ],
+      "open": false,
+      "required": false,
+      "hidden": false
+    },
+    {
+      "id": "6c2cc11-a7df-32-e6a7-a8e814f716c",
+      "questionText": "Question text...",
+      "questionType": "textarea",
+      "options": [{}],
+      "open": false,
+      "required": false,
+      "hidden": false
+    }
+  ],
+  "documentId": "3011c-27bf-b43-a380-62708552d51"
+}

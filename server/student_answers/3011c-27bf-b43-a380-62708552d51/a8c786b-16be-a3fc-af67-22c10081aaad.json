@@ -1,0 +1,23 @@
+{
+  "survey_id": "3011c-27bf-b43-a380-62708552d51",
+  "date": "2022-02-03T22:16:36.091Z",
+  "document_name": "Untitled Docment4",
+  "document_description": "Add Description",
+  "answers": [
+    {
+      "questionText": "Question text...",
+      "questionIndex": 0,
+      "questionType": "radio",
+      "answer": "1",
+      "hidden": false
+    },
+    {
+      "questionText": "Question text...",
+      "questionIndex": 1,
+      "questionType": "textarea",
+      "answer": "KAKAKAKAKAKA",
+      "hidden": false
+    }
+  ],
+  "currentSurveyRating": "1.00"
+}

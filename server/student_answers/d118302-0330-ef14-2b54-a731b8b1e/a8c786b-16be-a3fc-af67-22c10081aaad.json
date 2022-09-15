@@ -1,0 +1,22 @@
+{
+  "survey_id": "d118302-0330-ef14-2b54-a731b8b1e",
+  "date": "2022-01-31T12:17:55.607Z",
+  "document_name": "First Survey",
+  "document_description": "Add Description",
+  "answers": [
+    {
+      "questionText": "Question text...",
+      "questionIndex": 0,
+      "questionType": "radio",
+      "answer": "1",
+      "hidden": false
+    },
+    {
+      "questionText": "Question text...",
+      "questionIndex": 1,
+      "questionType": "textarea",
+      "answer": "",
+      "hidden": false
+    }
+  ]
+}

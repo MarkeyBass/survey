@@ -1,0 +1,36 @@
+{
+  "survey_id": "5da3c6e-58e-e141-f40d-bdda0ed30c66",
+  "date": "2022-02-01T18:49:48.232Z",
+  "document_name": "מרדכי",
+  "document_description": "Add Description",
+  "answers": [
+    {
+      "questionText": "Question text...",
+      "questionIndex": 0,
+      "questionType": "radio",
+      "answer": "1",
+      "hidden": false
+    },
+    {
+      "questionText": "Question text...",
+      "questionIndex": 1,
+      "questionType": "radio",
+      "answer": "3",
+      "hidden": false
+    },
+    {
+      "questionText": "Question text...",
+      "questionIndex": 2,
+      "questionType": "textarea",
+      "answer": "ליעךלןואטוךכע",
+      "hidden": false
+    },
+    {
+      "questionText": "Question text...",
+      "questionIndex": 3,
+      "questionType": "textarea",
+      "answer": "ףוטףןוטפן7א",
+      "hidden": false
+    }
+  ]
+}

@@ -1,0 +1,241 @@
+.question_boxes {
+  display: flex;
+  flex-direction: row;
+  /* flex-direction: column; */
+  justify-content: center;
+  /* width: 93%; */
+}
+
+.add_question,
+.saved_questions {
+  background-color: white;
+  border-radius: 8px;
+  padding: 25px 22px;
+  text-transform: capitalize;
+  display: flex;
+  flex-direction: column;
+  /* padding-bottom:10px; */
+  padding-top: 0px;
+  width: 93%;
+  margin-left: 10px;
+}
+
+.add_question_top {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.question {
+  box-sizing: border-box;
+  margin-top: 10px;
+  font-family: "Google Sans", Roboto, Arial, sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  flex: 1;
+  line-height: 40px;
+  width: 40%;
+  border: none;
+  outline: none;
+  color: black;
+  height: 40px;
+  margin-right: 10px;
+  line-height: 10px;
+  padding: 10px;
+}
+
+.question:focus {
+  border-bottom: 1px solid rgb(103, 58, 183);
+  background-color: #f4f4f9;
+}
+
+/* NOT YET WRITTEN */
+/* .top_header {
+  font-size: 15px;
+  color: grey;
+  font-family: "Google Sans", Roboto, Arial, sans-serif;
+  margin-left: 6px;
+  font-weight: 400;
+}
+.points {
+  box-sizing: border-box;
+
+  margin-top: 10px;
+
+  font-family: "Google Sans", Roboto, Arial, sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+
+  line-height: 40px;
+  width: 8%;
+  border: 1px solid blue;
+  outline: none;
+  color: black;
+  height: 40px;
+  margin-right: 10px;
+  line-height: 10px;
+  padding: 4px;
+} */
+/* NOT YET WRITTEN */
+
+.select {
+  height: 40px;
+  width: 230px;
+  border: 0.5px solid;
+  padding: 5px 15px;
+  color: black;
+  margin-left: 10px;
+  margin-right: 10px;
+  border: 1.5px solid #f4f4f9;
+  border-radius: 3px;
+  background: transparent;
+}
+
+.menuitem {
+  color: rgba(118, 118, 118, 0.3);
+}
+
+.add_footer {
+  display: flex;
+  justify-content: space-between;
+}
+/* .add_question_bottom {
+  margin-top: 12px;
+  border-top: 1px solid rgba(118, 118, 118, 0.3);
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.add_question_bottom_left {
+  margin-top: 12px;
+  border-top: 1px solid rgba(118, 118, 118, 0.3);
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+} */
+
+.add_question_body {
+  display: flex;
+  align-items: center;
+}
+
+.text_input {
+  outline: none;
+  border: none;
+  height: 40px;
+  width: 490px;
+  display: flex;
+
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  letter-spacing: 0.2px;
+  color: #202124;
+}
+
+.text_input:focus {
+  border-bottom: 1.5px solid rgb(103, 58, 183);
+}
+
+@media only screen and (max-width: 1300px) {
+  /* .question_boxes { */
+  /* } */
+  .add_footer {
+    flex-direction: column;
+  }
+  .add_question_buttom_right {
+    margin-bottom: 20px;
+  }
+
+  .add_question {
+    /* width: 100%; */
+    width: 85%;
+  }
+  .add_question_top {
+    flex-direction: column;
+    overflow: visible;
+  }
+  .question {
+    overflow: visible;
+    width: 85%;
+  }
+  .add_question_body {
+    padding: 0;
+    margin: 0;
+    overflow: visible;
+  }
+
+  .text_input {
+    width: 400px;
+  }
+
+  /* .question_boxes {
+    min-width: 100px;
+  } */
+}
+@media only screen and (max-width: 1200px) {
+  .text_input {
+    width: 300px;
+  }
+}
+@media only screen and (max-width: 920px) {
+  .text_input {
+    width: auto;
+  }
+  .select {
+    width: 150px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .buttons_right {
+    flex-direction: column;
+    margin-top: 15px;
+  }
+
+  .textarea_display {
+    width: "10px";
+  }
+}
+.text_input .question_edit {
+  background-color: #f4f4f9;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-left: 12px;
+
+  margin-top: 10px;
+  margin-bottom: 0;
+  padding: 10px;
+  border-radius: 3px;
+  height: 180px;
+  width: 35px;
+}
+
+.edit {
+  color: #5f6368;
+  padding: 8px 5px;
+}
+
+.saved_questions {
+  background-color: white;
+
+  border-radius: 8px;
+  padding: 20px 2px;
+  text-transform: capitalize;
+  display: flex;
+  flex-direction: column;
+}
+
+/* .options {
+} */
+
+.add_border {
+  border-left: 6px solid #4285f4;
+}
+
+.save_form {
+  margin: 15px;
+}

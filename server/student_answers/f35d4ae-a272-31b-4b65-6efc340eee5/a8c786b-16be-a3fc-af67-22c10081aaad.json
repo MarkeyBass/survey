@@ -1,0 +1,43 @@
+{
+  "survey_id": "f35d4ae-a272-31b-4b65-6efc340eee5",
+  "date": "2022-01-31T11:33:04.788Z",
+  "document_name": "Third Survey",
+  "document_description": "Add Description",
+  "answers": [
+    {
+      "questionText": "Question text...",
+      "questionIndex": 0,
+      "questionType": "radio",
+      "answer": "4",
+      "hidden": false
+    },
+    {
+      "questionText": "Question text...",
+      "questionIndex": 1,
+      "questionType": "textarea",
+      "answer": "TTT",
+      "hidden": false
+    },
+    {
+      "questionText": "Question text...",
+      "questionIndex": 2,
+      "questionType": "radio",
+      "answer": "1",
+      "hidden": false
+    },
+    {
+      "questionText": "Question text...",
+      "questionIndex": 3,
+      "questionType": "radio",
+      "answer": "0",
+      "hidden": false
+    },
+    {
+      "questionText": "Question text...",
+      "questionIndex": 4,
+      "questionType": "textarea",
+      "answer": "TTTT",
+      "hidden": false
+    }
+  ]
+}
